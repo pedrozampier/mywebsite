@@ -7,14 +7,14 @@
 
 Caixas de Diálogo
 
-- [x] prompt
-- [x] alert
-- [x] confirm
+- [ ] prompt
+- [ ] alert
+- [ ] confirm
 
 Temporizadores
 
-- [x] setInterval
-- [x] setTimeout
+- [ ] setInterval
+- [ ] setTimeout
 
 Funções
 
