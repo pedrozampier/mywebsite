@@ -1,48 +1,53 @@
-html {
-    background-color: #8B8A8B;
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #4e4e4e;
 }
 
+.navbar-brand,
+.nav-link {
+  color: #78bd91;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
 
-header {
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    font-style: italic;   
-    background-color: #320E48;
-    color: white;
-    padding: 20px;
-    border-radius: 20px;
-  }
+h1 {
+  color: #FFFFFF;
+  border-color: black;
+}
 
-  #msg {
-    color: red;
-  }
-  
-  form {
-    font-family: 'Inter', sans-serif;
-    font-style: italic;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #adabab;
-    border-radius: 20px;
-    background-color: rgb(167, 165, 165);
-  }
-  
-  input[type="submit"] {
-    font-family: 'Inter', sans-serif;
-    font-style: italic;
-    background-color: #320E48;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #1A0A2B;
-  }
+.descripition{
+  color: #FFFFFF;
+}
 
-  .home{
-    color: white;
-  }
-  
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  font-size: large;
+  width: 30%;
+}
+
+.btn-primary {
+  color: #FFFFFF;
+  border-radius: 10px;
+  background-color: #4e4e4e;
+}
+
+.btn-primary:hover {
+  background-color: #78bd91;
+  border-color: #78bd91;
+}
+
+.btn-primary:active {
+  background-color: #320E48;
+  border-color: #320E48;
+}

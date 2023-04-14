@@ -12,13 +12,12 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand">ZampaBET</a>
-              <a class="navbar-charge" href="app/pages/recharge/recharge.html">RECARREGAR</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
-                  <!-- Opções da barra de navegação aqui -->
+                  <a class="navbar-charge" href="app/pages/recharge/recharge.html">RECARREGAR</a>
                 </ul>
                 <div class="d-flex">
                   <form class="d-flex">
@@ -33,8 +32,8 @@
     <main>
         <h1>ROLETA DO ZAMPA</h1>
         <button id="btnSortear">Sortear número</button>
-        <p>Insira seu palpite</p>
-        <input type="number" id="input-numero">
+        <label for="numero">Insira um número:</label>
+        <input type="number" id="numero" name="numero">
         <p id="resultado"></p>
         <p id="tempoRestante"></p>
     </main>
