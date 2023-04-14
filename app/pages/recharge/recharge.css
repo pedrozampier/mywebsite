@@ -1,0 +1,48 @@
+html {
+    background-color: #8B8A8B;
+}
+
+
+header {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-style: italic;   
+    background-color: #320E48;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  #msg {
+    color: red;
+  }
+  
+  form {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #adabab;
+    border-radius: 20px;
+    background-color: rgb(167, 165, 165);
+  }
+  
+  input[type="submit"] {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    background-color: #320E48;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1A0A2B;
+  }
+
+  .home{
+    color: white;
+  }
+  

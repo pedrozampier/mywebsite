@@ -1,9 +1,91 @@
 body {
+    font-family: 'Inter', sans-serif;
+    color: #320E48;
     background-color: #8B8A8B;
 }
 
-h1 {
+.navbar {
+    box-shadow: none;
+  }
+  
+.navbar-brand {
+    color:#320E48; 
     font-family: 'Inter', sans-serif;
+    font-weight: bold;
     font-style: italic;
+  }
+
+  .navbar-charge {
+    color:#320E48; 
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-style: italic;   
+  }
+  
+  .form-control {
+    border-radius: 10px;
+  }
+  
+  .btn-outline-success {
+    border-color: #320E48;
     color: #320E48;
+    border-radius: 10px;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #320E48;
+    color: #fff;
+  }
+
+  main {
+    font-family: 'Inter', sans-serif;
+    color: #320E48;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 1rem 2rem;
+    background-color: #320E48;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #resultado {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50px;
+    margin-right: 10px;
 }
+
+p {
+    margin-top: 10px;
+}
+
+#tempo-restante {
+    margin-top: 10px;
+    font-size: 14px;
+}
+  

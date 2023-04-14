@@ -1,28 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
+    <title>ZampaBET</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/libraries/resources/styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <title>ZampaBet</title>
-
-</head>
-<body>
-    <nav>
-        <div class="site-largura">
-            <form method="GET">
-                <h1>ZAMPA BET</h1>
-                <a href="">Seguir</a>
-                <a href="">Procurar</a>
-                <input placeholder="Pesquisa">
-            </form>
-        </div>
-    </nav>
-
-</body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/libraries/resources/styles/style.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand">ZampaBET</a>
+              <a class="navbar-charge" href="app/pages/recharge/recharge.html">RECARREGAR</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                  <!-- Opções da barra de navegação aqui -->
+                </ul>
+                <div class="d-flex">
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>    
+    <main>
+        <h1>ROLETA DO ZAMPA</h1>
+        <button id="btnSortear">Sortear número</button>
+        <p>Insira seu palpite</p>
+        <input type="number" id="input-numero">
+        <p id="resultado"></p>
+        <p id="tempoRestante"></p>
+    </main>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+    <script src=assets\libraries\resources\scripts\index.js></script>
+  </body>
 </html>

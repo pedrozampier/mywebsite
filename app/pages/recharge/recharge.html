@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Recarga de Créditos</title>
+    <link rel="stylesheet" href="recharge.css">
+  </head>
+  <body>
+    <header>
+      <h1>ZampaBET Recarga</h1>
+      <a class="home" href="/index.html">HOME</a>
+    </header>
+    <main>
+      <form>
+        <label for="valor">Selecione o valor:</label><br>
+        <input type="radio" id="valor20" name="valor" value="20">
+        <label for="valor20">R$ 20,00</label><br>
+        <input type="radio" id="valor40" name="valor" value="40">
+        <label for="valor40">R$ 40,00</label><br>
+        <input type="radio" id="valor100" name="valor" value="100">
+        <label for="valor100">R$ 100,00</label><br><br>
+        <label for="pagamento">Forma de pagamento:</label><br>
+        <input type="radio" id="pix" name="pagamento" value="pix" checked>
+        <label for="pix">PIX</label><br><br>
+        <input type="submit" value="Pagar">
+      </form>
+    </main>
+    <script src="recharge.js"></script>
+  </body>
+</html>
