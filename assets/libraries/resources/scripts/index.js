@@ -1,6 +1,7 @@
 const btnSortear = document.getElementById('btnSortear');
 const resultado = document.getElementById('resultado');
 const tempoRestante = document.getElementById('tempoRestante');
+const creditos = document.getElementById('credits');
 //const campoNumero = document.getElementById("numero");
 
 let podeClicar = true;
@@ -16,7 +17,7 @@ btnSortear.addEventListener('click', function() {
     resultado.textContent = `Número sorteado: ${numeroSorteado}`;
     podeClicar = false;
     btnSortear.disabled = true;
-    alert("O número que você inseriu é: " + numero);
+    //alert("O número que você inseriu é: " + numero);
 
     let segundosRestantes = 5;
     const intervalo = setInterval(function() {
@@ -29,6 +30,6 @@ btnSortear.addEventListener('click', function() {
         podeClicar = true;
         btnSortear.disabled = false;
       }
-    }, 1000); // Chama a função a cada 1 segundo (1000 milissegundos)
+    }, 1000); // Chama a função a cada 1 segundo
   }
 });

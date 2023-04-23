@@ -12,6 +12,10 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand">ZampaBET</a>
+              <div class="fundo">
+                <img src="../roleta.png">
+              </div>
+              
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -19,6 +23,7 @@
                 <ul class="navbar-nav me-auto">
                   <a class="navbar-charge" href="app/pages/recharge/recharge.html">RECARREGAR</a>
                 </ul>
+                <div id="credits"> SEU SALDO:</div>
                 <div class="d-flex">
                   <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
@@ -30,16 +35,20 @@
           </nav>
     </header>    
     <main>
+      <div class="roleta">
         <h1>ROLETA DO ZAMPA</h1>
         <button id="btnSortear">Sortear número</button>
         <label for="numero">Insira um número:</label>
-        <input type="number" id="numero" name="numero">
+        <input id="numero" name="numero">
         <p id="resultado"></p>
         <p id="tempoRestante"></p>
+      </div>
     </main>
-        
+    <footer>
+      <p>Todos os direito reservados a Zampa Enterprise ©</p>
+    </footer> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
-    <script src=assets\libraries\resources\scripts\index.js></script>
-  </body>
+    <script src="assets/libraries/resources/scripts/index.js"></script>
+    </body>
 </html>

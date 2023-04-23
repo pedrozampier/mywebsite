@@ -5,10 +5,10 @@
 }
 
     /* font-style: italic;
-    color: #320E48; */
+    color: #78bd91; */
 body {
     font-family: 'Inter', sans-serif;
-    color: #320E48;
+    color: #78bd91;
     background-color: #8B8A8B;
 }
 
@@ -48,7 +48,7 @@ input[type="password"] {
 }
 
 button[type="submit"] {
-    background-color: #320E48;
+    background-color: #78bd91;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -57,5 +57,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #320E48;
+    background-color: #78bd91;
 }
